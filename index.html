@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
   
   <title>Frontend Mentor | Tip calculator app</title>
@@ -20,23 +23,30 @@
   <div class="calc-container">
     <div>
       <label for="bill">Bill</label>
-      <div class="input-containter">
+      <div class="input-container">
+        <img src="images/icon-dollar.svg"></img>
         <input type="number" placeholder="0" class="input-field">
       </div>
     </div>
     
-
-    Select Tip %
-    5%
-    10%
-    15%
-    25%
-    50%
-    Custom
+    <div>
+      <p>Select Tip %</p>
+      <ul>
+       <li>5%</li> 
+       <li>10%</li>  
+       <li>15%</li>  
+       <li>25%</li> 
+       <li>50%</li>  
+       <li>Custom</li> 
+      </ul> 
+   
+    </div>
+    
 
     <div>
       <label for="people">Number of People</label>
-      <div class="input-containter">
+      <div class="input-container">
+        <img src="images/icon-person.svg"></img>
         <input type="number" placeholder="0" class="input-field">
       </div>
     </div>
@@ -48,8 +58,10 @@
 
     Total
     / person
-
-    Reset
+    <div class="reset-btn">
+      Reset
+    </div>
+    
   </div>
    
 </main>
