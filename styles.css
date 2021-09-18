@@ -1,0 +1,13 @@
+.main-content{
+    display: flex;
+    width: 70%;
+    height: 90vh;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.input-field{
+    text-align: right;
+    border: none;
+}
